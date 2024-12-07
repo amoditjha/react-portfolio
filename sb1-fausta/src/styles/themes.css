@@ -1,0 +1,59 @@
+/* Base styles */
+:root {
+  --transition-duration: 0.3s;
+}
+
+/* Light theme variables */
+.theme-light {
+  --bg-primary: #ffffff;
+  --text-primary: #1a1a1a;
+  --text-secondary: #4a4a4a;
+  --accent-primary: #3b82f6;
+  --gradient-opacity: 0.9;
+}
+
+/* Dark theme variables */
+.theme-dark {
+  --bg-primary: #1a1a1a;
+  --text-primary: #ffffff;
+  --text-secondary: #a3a3a3;
+  --accent-primary: #60a5fa;
+  --gradient-opacity: 1;
+}
+
+/* Color scheme variations */
+.color-default {
+  --gradient-1: from-indigo-500 via-purple-500 to-pink-500;
+  --gradient-2: from-blue-500 via-purple-500 to-pink-500;
+  --gradient-3: from-purple-500 via-pink-500 to-red-500;
+  --gradient-4: from-pink-500 via-red-500 to-yellow-500;
+}
+
+.color-blue {
+  --gradient-1: from-blue-600 via-blue-700 to-indigo-800;
+  --gradient-2: from-indigo-600 via-blue-700 to-blue-800;
+  --gradient-3: from-blue-600 via-indigo-700 to-purple-800;
+  --gradient-4: from-indigo-600 via-blue-700 to-cyan-800;
+}
+
+.color-green {
+  --gradient-1: from-emerald-600 via-green-700 to-teal-800;
+  --gradient-2: from-green-600 via-emerald-700 to-teal-800;
+  --gradient-3: from-teal-600 via-emerald-700 to-green-800;
+  --gradient-4: from-emerald-600 via-teal-700 to-green-800;
+}
+
+.color-purple {
+  --gradient-1: from-purple-600 via-violet-700 to-indigo-800;
+  --gradient-2: from-violet-600 via-purple-700 to-indigo-800;
+  --gradient-3: from-indigo-600 via-violet-700 to-purple-800;
+  --gradient-4: from-purple-600 via-indigo-700 to-violet-800;
+}
+
+/* Apply transitions */
+* {
+  transition: background-color var(--transition-duration),
+              color var(--transition-duration),
+              border-color var(--transition-duration),
+              opacity var(--transition-duration);
+}
