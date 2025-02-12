@@ -18,7 +18,7 @@ Welcome to my **personal portfolio**! This project showcases my skills, projects
 - **Performance Optimized** – Fast and efficient with Vite
 
 ## 📸 Preview
-![Portfolio Screenshot](your-screenshot-url-here)
+![Portfolio Screenshot](sb1-fausta\screenshots\Screenshot 2025-02-12 120520.png)
 
 ## 🛠️ Installation & Setup
 To run this portfolio locally, follow these steps:
@@ -38,12 +38,24 @@ To run this portfolio locally, follow these steps:
    npm install
    ```
 
-4. Start the development server:
+
+4. Set up the `.env.local` file for EmailJS:
+   ```bash
+   touch .env.local
+   ```
+   Open `.env.local` and add the following environment variables:
+   ```env
+   VITE_EMAILJS_SERVICE_ID=your-service-id
+   VITE_EMAILJS_TEMPLATE_ID=your-template-id
+   VITE_EMAILJS_USER_ID=your-user-id
+   ```
+
+5. Start the development server:
    ```bash
    npm run dev
    ```
 
-5. Open the app in your browser:
+6. Open the app in your browser:
    ```
    http://localhost:5173
    ```
