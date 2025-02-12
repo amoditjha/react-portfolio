@@ -65,6 +65,7 @@ If you have any questions or want to collaborate, feel free to reach out:
 - **Portfolio:** https://amodits-portfolio.vercel.app/
 - **Email:** amodit701@example.com
 - **LinkedIn:** http://www.linkedin.com/in/amoditjha
+- **Portfolio** https://amodits-portfolio.vercel.app/
 
 
 ## ⭐️ Show Your Support
