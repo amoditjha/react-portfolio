@@ -18,7 +18,7 @@ Welcome to my **personal portfolio**! This project showcases my skills, projects
 - **Performance Optimized** – Fast and efficient with Vite
 
 ## 📸 Preview
-![Portfolio Screenshot](your-screenshot-url-here)
+![Portfolio Screenshot](\Screenshot 2025-02-12 120520.png)
 
 ## 🛠️ Installation & Setup
 To run this portfolio locally, follow these steps:
